@@ -1,19 +1,12 @@
-# Studentski zadatak
+## Section 2: Modern C++
 
-This repository contains solutions for all tasks from the evaluation:
+# Task 1: Legacy Resource Wrapper (RAII)
 
-## Section 1
-- Arrays vs Linked Lists
-- Recursive DFS Memory Analysis
+The solution uses the RAII principle.
 
-## Section 2
-- Task 1: RAII File Wrapper
-- Task 2: Thread Pool
+The constructor acquires ownership of a FILE*
+resource through fopen().
 
-## Build
-
-make
-
-## Clean
-
-make clean
+The destructor automatically releases the resource
+using fclose(), guaranteeing exception safety and
+preventing resource leaks.
