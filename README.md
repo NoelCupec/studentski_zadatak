@@ -1,19 +1,21 @@
 # Studentski zadatak
 
-This repository contains solutions for all tasks from the evaluation:
+# Orca predaja evaluacijskog zadatka
+
+Ovaj repozitorij sadrži rješenja svih zadataka iz evaluacije.
 
 ## Section 1
-- Arrays vs Linked Lists
-- Recursive DFS Memory Analysis
+- Polja (arrays) vs povezane liste (linked lists)
+- Analiza memorije rekurzivnog DFS-a
 
 ## Section 2
-- Task 1: RAII File Wrapper
-- Task 2: Thread Pool
+- Zadatak 1: RAII omotač za datoteke
+- Zadatak 2: Thread pool (skup dretvi)
 
-## Build
+## Izgradnja
 
 make
 
-## Clean
+## Čišćenje
 
 make clean
