@@ -2,7 +2,7 @@
 
 # Orca predaja evaluacijskog zadatka
 
-Ovaj repozitorij sadrži rješenja svih zadataka iz evaluacije.
+Ovaj repozitorij sadrži rješenja nekih zadataka iz evaluacije.
 
 ## Section 1
 - Polja (arrays) vs povezane liste (linked lists)
