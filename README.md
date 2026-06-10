@@ -2,11 +2,12 @@
 
 # Task 1: Legacy Resource Wrapper (RAII)
 
-The solution uses the RAII principle.
+Rješenje koristi RAII princip.
 
-The constructor acquires ownership of a FILE*
-resource through fopen().
+Konstruktor preuzima vlasništvo nad "resource file-om" putem funkcije fopen().
 
-The destructor automatically releases the resource
-using fclose(), guaranteeing exception safety and
-preventing resource leaks.
+Destruktor automatski oslobađa taj "resource" pomoću fclose(), čime se osigurava sigurnost u slučaju iznimki i sprječavaju curenja "resource-a".
+
+# Task 2: Asynchronous Worker Pool (Threading)
+
+
